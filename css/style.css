@@ -176,3 +176,35 @@ body {
 .card img {
   height: 75px;
 }
+
+.projetos {
+  background-color: #493773;
+}
+
+.projetos-geral {
+  padding: 60px 20px;
+}
+
+.projetos-geral h2:first-child {
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 200;
+  position: relative;
+}
+
+.projetos-geral h2:first-child::before {
+  content: '';
+  width: 40px;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+}
+
+.spanPrimarioProjetos {
+  display: block;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-weight: 200;
+}
